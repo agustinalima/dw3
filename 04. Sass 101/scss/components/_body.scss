@@ -1,0 +1,205 @@
+
+.seccion-2 {
+    padding: 42px 289px;
+    background: #fff;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    h3{
+        font-size: 38px;
+        line-height: 46px;
+        color: #334252;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+    img{
+        display: block;
+    }
+}
+
+.contenedor-redes{
+    text-align: center;
+    padding: 2.5em 0em;
+    ul{
+        li{
+            display: inline-block;
+            margin-right: 3.5em;
+            a{
+                text-decoration: none;
+                color: #334252;
+            }
+        }
+    }
+}
+
+
+.seccion-3 {
+    margin: 0;
+    padding: 50px 0;
+    background: #f0f3f1;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    h3 {
+        font-size: 38px;
+        color: #334252;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+    &-contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & *{
+            display: inline-block;
+        }
+        h4{
+            font-size: 22px;
+            color: #5e6271;
+            font-weight: 400;
+        }
+        span {
+            display: block;
+            color: #334252;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    &-componente2 {
+        width: calc(100% / 3);
+    }
+}
+
+
+.seccion-4 {
+    padding: 42px 200px;
+    background: #fff;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    h3 {
+        font-size: 38px;
+        line-height: 46px;
+        color: #334252;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+    &-contenedor > *{
+        display: inline-block;
+        width: calc(100% / 2 - 5px);
+        vertical-align: top;
+    }
+    &-componente2{
+        h4 {
+            color: #334252;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+        p {
+            color: #5e6271;
+            line-height: 28px;
+            padding-right: 30px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+}
+
+
+
+.seccion-6 {
+    background: #f0f3f1;
+    padding: 42px 0px;
+    line-height: 1.2;
+    text-align: left;
+    font-family: 'Hind', sans-serif;
+    > * {
+        display: inline-block;
+        width: calc(100% / 2 - 5px);
+        vertical-align: top;
+    }
+    &-componente1 > * {
+        display: inline-block;
+        vertical-align: top;
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    &-iconos{
+        width: 75px;
+        height: 75px;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 0.5em;
+        span {
+            font-size: 30px;
+            color: #3dc7be;
+            line-height: 70px;
+            text-align: center;
+            margin-left: 25px;
+        }
+    }
+    &-contenedor2{
+        h3 {
+            font-size: 36px;
+            line-height: 1.5;
+            color: #334252;
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+    }
+    &-texto{
+        padding-left: 30px;
+        h6 {
+            color: #334252;
+            font-size: 1.5em;
+            margin: 0px 0 6px 0;
+            font-weight: 600;
+        }
+        p {
+            color: #5e6271;
+            line-height: 1.5;
+            font-weight: 400;
+            text-align: left;
+            font-size: 16px;
+        }
+    }
+}
+ 
+
+
+.seccion-7 {
+    background: #fff;
+    padding: 0 25em;
+    padding-top: 40px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    h3 {
+        font-size: 36px;
+        line-height: 1.5;
+        color: #334252;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+    p {
+        color: #5e6271;
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: left;
+        font-size: 16px;
+    }
+    img {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.seccion-8 {
+    margin-top: 0;
+}
+
+
+
