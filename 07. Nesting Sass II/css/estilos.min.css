@@ -1,0 +1,2 @@
+.menu li{display:inline-block}.menu li a{text-decoration:none;padding:10px}.menu li a:hover{color:red}.menu li:hover::before,.menu li:hover::after{width:100%}.menu li::before,.menu li::after{content:"";display:block;height:2px;background:red;width:0;transition:width 0.5s;margin:5px auto}.menu li::before{margin:5px auto 5px 0;transition:width 0.5s 0.5s}.menu li::after{margin:5px 0 5px auto}
+/*# sourceMappingURL=estilos.min.css.map */
